@@ -40,7 +40,7 @@ setup(
         #   3 - Alpha
         #   4 - Beta
         #   5 - Production/Stable
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
 
         # Indicate who your project is intended for
         'Intended Audience :: Science/Research',
@@ -77,7 +77,7 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     setup_requires=['numpy', 'pandas', 'h5py', 'scipy', 'pyensembl'],
     install_requires=['numpy', 'pandas', 'h5py', 'scipy', 'pyensembl'],
-    python_requires='>3.6',
+    python_requires='>2.7.10',
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
